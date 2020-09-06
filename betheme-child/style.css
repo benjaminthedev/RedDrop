@@ -66,3 +66,11 @@ ul#menu-page-menu li {
 ul#menu-page-menu li:last-child {
 	border: none;
 }
+
+
+/* Style for the store locations page
+-------------------------------------------------------------- */
+
+div#asl-storelocator {
+    width: 100vw !important;
+}
