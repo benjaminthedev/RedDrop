@@ -1,0 +1,4 @@
+[30-Jul-2020 02:46:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/reddropcom/public_html/wp-content/themes/betheme/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/reddropcom/public_html/wp-content/themes/betheme/index.php on line 10
