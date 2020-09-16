@@ -71,6 +71,47 @@ ul#menu-page-menu li:last-child {
 /* Style for the store locations page
 -------------------------------------------------------------- */
 
-div#asl-storelocator {
-    width: 100vw !important;
-}
+    div#asl-geolocation-agile-modal {
+        display: none !important;
+    }
+    .page-id-14 .col-sm-12.asl-advance-filters {
+        display: none;
+    }
+    /* div#asl-storelocator {
+        width: 100vw !important;
+        background: #2B615E !important;
+    }
+
+    .page-id-14 .col-sm-12.asl-advance-filters {
+        display: none;
+    }
+
+    .agile-modal-backdrop-in {
+        display: none;
+    }
+
+    div#asl-geolocation-agile-modal {
+        display: none !important;
+    }
+
+    .col-xs-4.range_filter {
+        display: none;
+    }
+
+
+    .row.Filter_section {
+        background: #2B615E !important;
+    }
+
+    div#asl-storelocator {
+        background: #2B615E;
+    }
+
+    .Filter_section {
+        background: darkblue !important;
+        border: 2px solid;
+    }
+
+    #asl-storelocator.asl-p-cont .Filter_section {
+        background: #2b615e !important;
+    } */
