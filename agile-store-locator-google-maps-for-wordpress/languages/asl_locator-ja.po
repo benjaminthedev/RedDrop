@@ -207,7 +207,7 @@ msgstr "検索場所"
 #: public/partials/template-frontend-0.php:144
 #: public/partials/template-frontend-1.php:103
 #: public/partials/template-frontend-2.php:158
-msgid "Enter a Location"
+msgid "Enter a postcode or suburb"
 msgstr "場所を入力してください"
 
 #: public/partials/template-frontend-0.php:51

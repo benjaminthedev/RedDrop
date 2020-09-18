@@ -45,7 +45,7 @@ $adv_class_grid = ($all_configs['search_2'])? 'col-sm-8': 'col-sm-12';
       <div class="col-xs-12 col-sm-4 search_filter">
           <p><?php echo __( 'Search Location', 'asl_locator') ?></p>
           <p>
-            <input type="text" value="<?php echo $default_addr ?>" data-submit="disable" data-provide="typeahead" tabindex="2" id="auto-complete-search" placeholder="<?php echo __( 'Enter a Location', 'asl_locator') ?>"  class="<?php echo $search_type_class ?> form-control typeahead isp_ignore">
+            <input type="text" value="<?php echo $default_addr ?>" data-submit="disable" data-provide="typeahead" tabindex="2" id="auto-complete-search" placeholder="<?php echo __( 'Enter a postcode or suburb', 'asl_locator') ?>"  class="<?php echo $search_type_class ?> form-control typeahead isp_ignore">
             <span><i class="<?php echo $geo_btn_class ?>" title="<?php echo ($all_configs['geo_button'] == '1')?__('Current Location','asl_locator'):__('Search Location','asl_locator') ?>"></i></span>
           </p>
       </div>
@@ -108,7 +108,7 @@ $adv_class_grid = ($all_configs['search_2'])? 'col-sm-8': 'col-sm-12';
             </div>
             <div class="form-group">
               <label for="frm-lbl"><?php echo __('From', 'asl_locator') ?>:</label>
-              <input type="text" class="form-control frm-place" id="frm-lbl" placeholder="<?php echo __('Enter a Location', 'asl_locator') ?>">
+              <input type="text" class="form-control frm-place" id="frm-lbl" placeholder="<?php echo __('Enter a postcode or suburb', 'asl_locator') ?>">
             </div>
             <div class="form-group">
               <label for="frm-lbl"><?php echo __('To', 'asl_locator') ?>:</label>
