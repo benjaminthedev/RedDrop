@@ -28,7 +28,7 @@ line-height: 11px;
 }
 #asl-storelocator.asl-p-cont.asl-template-0 .panel-inner .p-area .glyphicon,
 #asl-storelocator.asl-p-cont.asl-template-0 .panel-inner .p-area {
-  font-size: 11px;
+  font-size: 16px !important;
   font-weight: normal;
   line-height: 1.3em;
   margin-bottom: 4px;
@@ -542,7 +542,8 @@ line-height: 11px;
 }
 #asl-storelocator.asl-p-cont.asl-bg-0 .panel-inner .item .addr-sec .p-title {
   color: #CC3333;
-  font-size: 13px;
+  font-size: 22px;
+  text-transform: uppercase;
   font-weight: normal;
   line-height: 1.2em;
   padding: 0 0 5px;
@@ -1035,13 +1036,14 @@ line-height: 11px;
 }
 #asl-storelocator.asl-p-cont.asl-bg-0 .search_filter > p:first-child {
   color: #fff;
-  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 24px;
   font-weight: 800;
   margin-bottom: 5px;
   padding: 0;
 }
 #asl-storelocator.asl-p-cont.asl-bg-0 .search_filter .form-control {
-  border-radius: 5px;
+  border-radius: 15px;
   border-right: 0;
   border: 1px solid #999999;
   box-shadow: inset 0 0 0 1px #cccccc;
@@ -16314,6 +16316,13 @@ margin-left: 100px;
 #asl-storelocator.asl-p-cont .col-xs-12.search_filter .asl-store-search > span {
     display: table !important;
 }
+
+#asl-storelocator.asl-p-cont .col-xs-12.search_filter p:last-child > span,
+#asl-storelocator.asl-p-cont .col-xs-12.search_filter p:last-child > span i{
+  display:none!important;
+}
+
+
 #asl-storelocator.asl-p-cont button {
   border: none;
 }
@@ -16515,6 +16524,11 @@ margin-left: 100px;
     border-color: #ccc !important;
     box-shadow: none !important;
 }
+
+#asl-storelocator.asl-p-cont .search_filter .form-control {
+    color: #2B615E;
+    font-size: 12px;
+}
 .asl-p-cont#asl-storelocator .search_filter span i{position: absolute}
 .asl-p-cont#asl-storelocator .s-direction{cursor: pointer}
 .asl-p-cont#asl-storelocator .icon-direction-outline{cursor: pointer}
@@ -16620,10 +16634,8 @@ element.style {
     left: auto;
 }
 
-
-
 #asl-storelocator.asl-p-cont .Filter_section{
-    background: #424344 !important;
+    background: #2B615E !important;
 }
 
 #asl-storelocator.asl-p-cont #asl-radius-slide{display:none}

@@ -176,7 +176,7 @@ msgstr "موقع البحث"
 #: public/partials/template-frontend-0.php:139
 #: public/partials/template-frontend-1.php:101
 #: public/partials/template-frontend-2.php:158
-msgid "Enter a Location"
+msgid "Enter a postcode or suburb"
 msgstr "إدخال الدولة"
 
 #: public/partials/template-frontend-0.php:36

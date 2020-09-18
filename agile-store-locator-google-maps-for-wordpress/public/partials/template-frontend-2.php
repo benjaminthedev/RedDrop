@@ -157,7 +157,7 @@ $panel_order        = (isset($all_configs['map_top']))?$all_configs['map_top']: 
               </div>
               <div class="form-group">
                 <label for="frm-lbl"><?php echo __('From', 'asl_locator') ?>:</label>
-                <input type="text" class="form-control frm-place" id="frm-lbl" placeholder="<?php echo __('Enter a Location', 'asl_locator') ?>">
+                <input type="text" class="form-control frm-place" id="frm-lbl" placeholder="<?php echo __('Enter a postcode or suburb', 'asl_locator') ?>">
               </div>
               <div class="form-group">
                 <label for="frm-lbl"><?php echo __('To', 'asl_locator') ?>:</label>
