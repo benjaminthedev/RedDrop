@@ -540,15 +540,24 @@ line-height: 11px;
 #asl-storelocator.asl-p-cont.asl-bg-0 .panel-inner .item .p-descrip {
   font-size: 12px;
 }
+
 #asl-storelocator.asl-p-cont.asl-bg-0 .panel-inner .item .addr-sec .p-title {
   color: #CC3333;
-  font-size: 22px;
+  font-size: 16px;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 600;
   line-height: 1.2em;
   padding: 0 0 5px;
   margin-top: 5px;
   text-decoration: none;
+}
+span.s-direction.helloooooooo:before {
+    content: ' ';
+}
+
+span.s-direction.helloooooooo {
+    font-size: 16px!important;
+    margin-left: 20px;
 }
 #asl-storelocator.asl-p-cont.asl-bg-0 .panel-inner .item .p-deal-time {
   font-size: 12px;
