@@ -71,12 +71,12 @@ ul#menu-page-menu li:last-child {
 /* Style for the store locations page
 -------------------------------------------------------------- */
 
-    div#asl-geolocation-agile-modal {
+    /* div#asl-geolocation-agile-modal {
         display: none !important;
     }
     .page-id-14 .col-sm-12.asl-advance-filters {
         display: none;
-    }
+    } */
     /* div#asl-storelocator {
         width: 100vw !important;
         background: #2B615E !important;
